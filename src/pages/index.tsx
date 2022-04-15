@@ -73,10 +73,16 @@ const resources: TLink[] = [
 const supports: TLink[] = [
   {
     href: 'https://saweria.co/fahmiidris',
-    title: 'Traktir Fahmi Beli Kebab!',
-    description: 'Makasih yang udah ngetraktir fahmi beli kebab! jadi semangat ngoding lagi nih!',
+    title: 'Sawer Fahmi Yuu!',
+    description: 'Makasih yang udah nyawer! jadi semangat ngoding lagi nih!',
     domain: 'saweria.co/fahmiidris',
   },
+  {
+    href: 'https://trakteer.id/fahmiidris',
+    title: 'Traktir Fahmi Beli Eskrim!',
+    description: 'Makasih ya eskrim nya. Enak banget! jadi semangat ngoding lagi nih!',
+    domain: 'trakteer.id/fahmiidris',
+  }
 ];
 
 const HomePage: TNextPageWithLayout = () => {
