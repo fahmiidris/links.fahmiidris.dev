@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Image from 'next/image';
+import { HiOutlineExternalLink } from 'react-icons/hi';
 
 import { Link } from '@/components/atoms/link';
 import { RootLayout } from '@/components/templates/root-layout';
@@ -7,7 +8,6 @@ import { RootLayout } from '@/components/templates/root-layout';
 import profileIMG from '@/images/fahmiidris-labs.png';
 
 import type { TNextPageWithLayout } from '@/types/app.type';
-import { HiOutlineExternalLink } from 'react-icons/hi';
 
 type TLink = {
   href: string;
@@ -61,12 +61,6 @@ const resources: TLink[] = [
     description:
       'All Fahmi Idris news, straight from me. Opinions and some personal stuff about programming.',
     domain: 'www.fahmiidris.dev/blog',
-  },
-  {
-    href: 'https://og.fahmiidris.dev',
-    title: 'Open Graph Generator',
-    description: 'Open Graph Generator made using next-api-og-image for Personal Use.',
-    domain: 'og.fahmiidris.dev',
   },
 ];
 
