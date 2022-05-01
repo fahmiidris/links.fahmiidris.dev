@@ -1,3 +1,4 @@
+import '@/css/fonts.css';
 import '@/css/main.css';
 
 import * as React from 'react';

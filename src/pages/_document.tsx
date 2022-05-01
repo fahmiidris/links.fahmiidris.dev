@@ -21,12 +21,9 @@ export default class Document extends NextDocument {
       <Html lang="en" className={`scroll-smooth [--scroll-mt:9.875rem] lg:[--scroll-mt:6.3125rem]`}>
         <Head>
           <Favicon />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
-          />
+          <script></script>
         </Head>
-        <body className="bg-white font-sans text-gray-700 antialiased">
+        <body className="bg-slate-900 font-sans text-slate-500 antialiased">
           <Main />
           <NextScript />
           <script></script>

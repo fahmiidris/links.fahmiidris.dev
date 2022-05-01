@@ -3,15 +3,12 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 
 /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
 const tailwindConfig = {
-  darkMode: 'class',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
-      colors: {
-        primary: colors.cyan,
-      },
       fontFamily: {
-        sans: ['Poppins', ...fontFamily.sans],
+        sans: ['Inter Var', ...fontFamily.sans],
       },
       container: {
         center: true,
