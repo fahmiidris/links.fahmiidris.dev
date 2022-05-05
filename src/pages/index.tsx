@@ -68,7 +68,7 @@ const kloningan: TLink[] = [
     href: 'https://www.kloningan.com',
     title: 'kloningan.com',
     description:
-      'Cloning the User Interface of Several Famous Websites on the Internet created by Fahmi Idris',
+      'Cloning the User Interface of Several Famous Websites on the Internet created by Kloningan Members and Contributors',
     domain: 'www.kloningan.com',
   },
 ];
