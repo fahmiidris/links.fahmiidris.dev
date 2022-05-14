@@ -41,8 +41,8 @@ const sosmed: TLink[] = [
     title: 'Telegram',
   },
   {
-    href: '#',
-    title: 'Download My Resume',
+    href: 'https://drive.google.com/file/d/1NM71_k6blUSAec-tFuG0ch4wjiEB52-m/view?usp=sharing',
+    title: 'CV Fahmi Idris',
   },
 ];
 
