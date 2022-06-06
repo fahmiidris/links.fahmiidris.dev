@@ -18,7 +18,7 @@ type TLink = {
 const sosmed: TLink[] = [
   {
     href: 'mailto:fahmiidris.1607@gmail.com',
-    title: 'G-mail',
+    title: 'Gmail',
   },
   {
     href: 'https://www.instagram.com/_fahmiidris.a/',
@@ -41,7 +41,7 @@ const sosmed: TLink[] = [
     title: 'Telegram',
   },
   {
-    href: 'https://drive.google.com/file/d/1NM71_k6blUSAec-tFuG0ch4wjiEB52-m/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1pZJB7DrO3RzuXmAXHqyKUQ3B4ug4tHDq/view?usp=sharing',
     title: 'CV Fahmi Idris',
   },
 ];
@@ -55,11 +55,21 @@ const resources: TLink[] = [
     domain: 'www.fahmiidris.dev',
   },
   {
-    href: 'https://www.fahmiidris.dev/blogs',
+    href: 'https://www.fahmiidris.dev/blog',
     title: 'My Blog',
     description:
       'All Fahmi Idris news, straight from me. Opinions and some personal stuff about programming.',
-    domain: 'www.fahmiidris.dev/blogs',
+    domain: 'www.fahmiidris.dev/blog',
+  },
+];
+
+const naqimart: TLink[] = [
+  {
+    href: 'https://www.naqimart.com',
+    title: 'naqimart.com',
+    description:
+      'Official website of Naqimart, smart e-commerce for smart shoppers.',
+    domain: 'www.naqimart.com',
   },
 ];
 
@@ -68,7 +78,7 @@ const kloningan: TLink[] = [
     href: 'https://www.kloningan.com',
     title: 'kloningan.com',
     description:
-      'Cloning the User Interface of Several Famous Websites on the Internet created by Kloningan Members and Contributors',
+      'Cloning the User Interface of Several Famous Websites on the Internet created by Kloningan Contributors',
     domain: 'www.kloningan.com',
   },
 ];
@@ -77,7 +87,7 @@ const supports: TLink[] = [
   {
     href: 'https://saweria.co/fahmiidris',
     title: 'Sawer Fahmi Yuu!',
-    description: 'Makasih yang udah nyawer! jadi semangat ngoding lagi nih!',
+    description: 'Makasih yang udah nyawer! jadi semangat ngoding lagi nih! Pluss Ultraaaa!',
     domain: 'saweria.co/fahmiidris',
   },
   {
@@ -153,6 +163,36 @@ const HomePage: TNextPageWithLayout = () => {
             </div>
           </div>
         </section>
+
+        <section id="naqimart" className="relative">
+          <div className="container flex flex-col space-y-4 pt-8">
+            <div className="flex flex-col">
+              <h2 className="text-lg font-bold text-white">naqimart.com</h2>
+              <p className="text-xs font-semibold text-slate-400">
+                Smart shop for you, easier shopping with naqimart.
+              </p>
+            </div>
+            <div className="grid-col-1 grid gap-4 md:grid-cols-2">
+              {naqimart.map((item, idx) => (
+                <Link
+                  key={idx}
+                  href={item.href}
+                  isExternal={true}
+                  className="relative flex flex-col space-y-1 border border-slate-800 p-4 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-900"
+                >
+                  <div className="flex items-center justify-between">
+                    <p className="text-xs font-semibold text-cyan-400">{item.domain}</p>
+                  </div>
+                  <div className="flex flex-col space-y-1">
+                    <h3 className="text-lg font-semibold text-white">{item.title}</h3>
+                    <p className="text-xs text-slate-400">{item.description}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section id="kloningan" className="relative">
           <div className="container flex flex-col space-y-4 pt-8">
             <div className="flex flex-col">
@@ -181,6 +221,7 @@ const HomePage: TNextPageWithLayout = () => {
             </div>
           </div>
         </section>
+
         <section id="supports" className="relative">
           <div className="container flex flex-col space-y-4 pt-12">
             <div className="flex flex-col">
@@ -216,7 +257,8 @@ HomePage.Props = {
   Layout: RootLayout,
   meta: {
     title: "Hi! Let's Connect!",
-  },
-};
+    description: "Hi! Let's Connect! I'm Fahmi Idris, a web developer based in Indonesia."
+  }
+}
 
 export default HomePage;
