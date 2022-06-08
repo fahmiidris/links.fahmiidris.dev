@@ -34,7 +34,7 @@ const defaultMeta: TMeta = {
   title: 'Home',
   description: 'Links Fahmi Idris',
   url: 'https://links.fahmiidris.dev',
-  image: 'https://links.fahmiidris.dev/default-social-image.png',
+  image: 'https://links.fahmiidris.dev/default-social-image.jpg',
   type: 'website',
   robots: 'follow, index',
 };
