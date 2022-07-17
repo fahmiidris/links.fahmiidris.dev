@@ -18,7 +18,7 @@ type TLink = {
 const sosmed: TLink[] = [
   {
     href: 'mailto:fahmiidris.1607@gmail.com',
-    title: 'Gmail',
+    title: 'E-mail',
   },
   {
     href: 'https://www.instagram.com/_fahmiidris.a/',
@@ -39,10 +39,6 @@ const sosmed: TLink[] = [
   {
     href: 'https://t.me/FahmiIdrisA',
     title: 'Telegram',
-  },
-  {
-    href: 'https://drive.google.com/file/d/1pZJB7DrO3RzuXmAXHqyKUQ3B4ug4tHDq/view?usp=sharing',
-    title: 'CV Fahmi Idris',
   },
 ];
 
@@ -67,8 +63,7 @@ const naqimart: TLink[] = [
   {
     href: 'https://www.naqimart.com',
     title: 'naqimart.com',
-    description:
-      'Official website of Naqimart, smart e-commerce for smart shoppers.',
+    description: 'Official website of Naqimart, smart e-commerce for smart shoppers.',
     domain: 'www.naqimart.com',
   },
 ];
@@ -257,8 +252,8 @@ HomePage.Props = {
   Layout: RootLayout,
   meta: {
     title: "Hi! Let's Connect!",
-    description: "Hi! Let's Connect! I'm Fahmi Idris, a web developer based in Indonesia."
-  }
-}
+    description: "Hi! Let's Connect! I'm Fahmi Idris, a web developer based in Indonesia.",
+  },
+};
 
 export default HomePage;
