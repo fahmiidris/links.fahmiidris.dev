@@ -38,6 +38,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 | ---------------------- | -------------------------------------------------------------------------------- |
 | GITHUB                 | [https://www.github.com/fahmiidris-labs](https://www.github.com/fahmiidris-labs) |
 | GITLAB                 | [https://www.gitlab.com/fahmiidris-labs](https://www.gitlab.com/fahmiidris-labs) |
+| BITBUCKET              | [https://bitbucket.org/fahmiidris-labs](https://bitbucket.org/fahmiidris-labs)   |
 
 | SOCIAL MEDIA AND OTHERS | LINK                                                                                           |
 | ----------------------- | ---------------------------------------------------------------------------------------------- |
