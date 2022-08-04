@@ -17,15 +17,15 @@ type TLink = {
 
 const sosmed: TLink[] = [
   {
-    href: 'mailto:fahmiidris.1607@gmail.com',
+    href: 'mailto:fahmiidris.dev@gmail.com',
     title: 'E-mail',
   },
   {
-    href: 'https://www.instagram.com/_fahmiidris.a/',
+    href: 'https://www.instagram.com/fahmiidris.dev/',
     title: 'Instagram',
   },
   {
-    href: 'https://www.linkedin.com/in/fahmiidris-labs/',
+    href: 'https://www.linkedin.com/in/fahmiidris-dev/',
     title: 'LinkedIn',
   },
   {
@@ -33,11 +33,11 @@ const sosmed: TLink[] = [
     title: 'GitHub',
   },
   {
-    href: 'https://www.twitter.com/FahmiIdrisA',
+    href: 'https://www.twitter.com/fahmiidris_dev',
     title: 'Twitter',
   },
   {
-    href: 'https://t.me/FahmiIdrisA',
+    href: 'https://t.me/fahmiidris_dev',
     title: 'Telegram',
   },
 ];
