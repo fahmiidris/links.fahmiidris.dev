@@ -34,11 +34,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 | BEHANCE  | [https://www.behance.net/fahmiidris_dev](https://www.behance.net/fahmiidris_dev)   |
 | DRIBBBLE | [https://www.dribbble.com/fahmiidris_dev](https://www.dribbble.com/fahmiidris_dev) |
 
-| SOURCE CODE MANAGEMENT | LINK                                                                               |
-| ---------------------- | ---------------------------------------------------------------------------------- |
-| GITHUB                 | [https://www.github.com/fahmiidris-labs](https://www.github.com/fahmiidris-labs)   |
-| GITLAB                 | [https://www.gitlab.com/fahmiidris-labs](https://www.gitlab.com/fahmiidris-labs)   |
-| BITBUCKET              | [https://bitbucket.org/fahmiidris-labs](https://www.bitbucket.org/fahmiidris-labs) |
+| SOURCE CODE MANAGEMENT | LINK                                                                                   |
+| ---------------------- | -------------------------------------------------------------------------------------- |
+| GITHUB                 | [https://www.github.com/fahmiidris-labs](https://www.github.com/fahmiidris-labs)       |
+| GITLAB                 | [https://www.gitlab.com/fahmiidris-labs](https://www.gitlab.com/fahmiidris-labs)       |
+| BITBUCKET              | [https://www.bitbucket.org/fahmiidris-labs](https://www.bitbucket.org/fahmiidris-labs) |
 
 | SOCIAL MEDIA AND OTHERS | LINK                                                                                           |
 | ----------------------- | ---------------------------------------------------------------------------------------------- |
@@ -49,7 +49,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 | LINKEDIN                | [https://www.linkedin.com/in/fahmiidris-dev](https://www.linkedin.com/in/fahmiidris-dev)       |
 | GOOGLE DEV              | [https://g.dev/fahmiidris-dev](https://g.dev/fahmiidris-dev)                                   |
 | DICODING                | [https://www.dicoding.com/users/fahmiidris-dev](https://www.dicoding.com/users/fahmiidris-dev) |
-| MEDIUM                  | [https://medium.com/@fahmiidris-dev](https://www.medium.com/@fahmiidris-dev)                   |
+| MEDIUM                  | [https://www.medium.com/@fahmiidris-dev](https://www.medium.com/@fahmiidris-dev)               |
 
 | SUPPORT FAHMI IDRIS | LINK                                                                     |
 | ------------------- | ------------------------------------------------------------------------ |
