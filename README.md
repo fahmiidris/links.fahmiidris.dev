@@ -49,6 +49,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 | LINKEDIN                | [https://www.linkedin.com/in/fahmiidris-dev](https://www.linkedin.com/in/fahmiidris-dev)       |
 | GOOGLE DEV              | [https://g.dev/fahmiidris-dev](https://g.dev/fahmiidris-dev)                                   |
 | DICODING                | [https://www.dicoding.com/users/fahmiidris-dev](https://www.dicoding.com/users/fahmiidris-dev) |
+| MEDIUM                  | [https://medium.com/@fahmiidris-dev](https://medium.com/@fahmiidris-dev)                       |
 
 | SUPPORT FAHMI IDRIS | LINK                                                                     |
 | ------------------- | ------------------------------------------------------------------------ |
