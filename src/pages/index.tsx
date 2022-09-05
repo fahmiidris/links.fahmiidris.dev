@@ -73,8 +73,18 @@ const kloningan: TLink[] = [
     href: 'https://www.kloningan.com',
     title: 'kloningan.com',
     description:
-      'Cloning the User Interface of Several Famous Websites on the Internet created by Kloningan Contributors',
+      'Cloning the User Interface of Several Famous Websites on the Internet created by Fahmi Idris.',
     domain: 'www.kloningan.com',
+  },
+];
+
+const patungan: TLink[] = [
+  {
+    href: 'https://www.patungan.dev',
+    title: 'patungan.dev',
+    description:
+      "Official Website of Patungan Dev. A place to study together for those of you who don't like being alone!",
+    domain: 'www.patungan.dev',
   },
 ];
 
@@ -131,9 +141,9 @@ const HomePage: TNextPageWithLayout = () => {
         </nav>
       </header>
 
-      <main>
+      <main className="my-12 space-y-16 overflow-hidden">
         <section id="resources" className="relative">
-          <div className="container flex flex-col space-y-4 pt-8">
+          <div className="container flex flex-col space-y-4">
             <div className="flex flex-col">
               <h2 className="text-lg font-bold text-white">Resources</h2>
               <p className="text-xs font-semibold text-slate-400">Some resources that I made.</p>
@@ -160,7 +170,7 @@ const HomePage: TNextPageWithLayout = () => {
         </section>
 
         <section id="naqimart" className="relative">
-          <div className="container flex flex-col space-y-4 pt-8">
+          <div className="container flex flex-col space-y-4">
             <div className="flex flex-col">
               <h2 className="text-lg font-bold text-white">naqimart.com</h2>
               <p className="text-xs font-semibold text-slate-400">
@@ -189,7 +199,7 @@ const HomePage: TNextPageWithLayout = () => {
         </section>
 
         <section id="kloningan" className="relative">
-          <div className="container flex flex-col space-y-4 pt-8">
+          <div className="container flex flex-col space-y-4">
             <div className="flex flex-col">
               <h2 className="text-lg font-bold text-white">kloningan.com</h2>
               <p className="text-xs font-semibold text-slate-400">
@@ -217,8 +227,37 @@ const HomePage: TNextPageWithLayout = () => {
           </div>
         </section>
 
+        <section id="patungan" className="relative">
+          <div className="container flex flex-col space-y-4">
+            <div className="flex flex-col">
+              <h2 className="text-lg font-bold text-white">patungan.dev</h2>
+              <p className="text-xs font-semibold text-slate-400">
+                A place to study together for those of you who don&apos;t like being alone!
+              </p>
+            </div>
+            <div className="grid-col-1 grid gap-4 md:grid-cols-2">
+              {patungan.map((item, idx) => (
+                <Link
+                  key={idx}
+                  href={item.href}
+                  isExternal={true}
+                  className="relative flex flex-col space-y-1 border border-slate-800 p-4 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-900"
+                >
+                  <div className="flex items-center justify-between">
+                    <p className="text-xs font-semibold text-cyan-400">{item.domain}</p>
+                  </div>
+                  <div className="flex flex-col space-y-1">
+                    <h3 className="text-lg font-semibold text-white">{item.title}</h3>
+                    <p className="text-xs text-slate-400">{item.description}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section id="supports" className="relative">
-          <div className="container flex flex-col space-y-4 pt-12">
+          <div className="container flex flex-col space-y-4">
             <div className="flex flex-col">
               <h2 className="text-lg font-bold text-white">Support Fahmi Idris</h2>
               <p className="text-xs font-semibold text-slate-400">Thank you for supporting!</p>
