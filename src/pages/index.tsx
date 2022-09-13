@@ -51,11 +51,11 @@ const resources: TLink[] = [
     domain: 'www.fahmiidris.dev',
   },
   {
-    href: 'https://www.fahmiidris.dev/blog',
-    title: 'My Blog',
+    href: 'https://www.fahmiidris.dev/blogs',
+    title: 'My Blog and Life Story',
     description:
-      'All Fahmi Idris news, straight from me. Opinions and some personal stuff about programming.',
-    domain: 'www.fahmiidris.dev/blog',
+      'Some personal opinions on technology and my random thoughts. Sometimes, it contains stories about feelings.',
+    domain: 'www.fahmiidris.dev/blogs',
   },
 ];
 
