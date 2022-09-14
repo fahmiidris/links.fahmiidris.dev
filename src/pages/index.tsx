@@ -90,16 +90,22 @@ const patungan: TLink[] = [
 
 const supports: TLink[] = [
   {
-    href: 'https://saweria.co/fahmiidris',
+    href: 'https://www.saweria.co/fahmiidris',
     title: 'Sawer Fahmi Yuu!',
     description: 'Makasih yang udah nyawer! jadi semangat ngoding lagi nih! Pluss Ultraaaa!',
-    domain: 'saweria.co/fahmiidris',
+    domain: 'www.saweria.co/fahmiidris',
   },
   {
-    href: 'https://trakteer.id/fahmiidris',
+    href: 'https://www.trakteer.id/fahmiidris/tip',
     title: 'Traktir Fahmi Beli Eskrim!',
     description: 'Makasih ya eskrim nya. Enak banget! jadi semangat ngoding lagi nih!',
-    domain: 'trakteer.id/fahmiidris',
+    domain: 'www.trakteer.id/fahmiidris/tip',
+  },
+  {
+    href: 'https://www.github.com/sponsors/fahmiidris-labs',
+    title: 'Jadi Sponsor GitHub Fahmi!',
+    description: 'Wah! Makasih ya, yang udah jadi sponsor untuk terus support Fahmi!',
+    domain: 'www.github.com/sponsors/fahmiidris-labs',
   },
 ];
 
@@ -141,7 +147,7 @@ const HomePage: TNextPageWithLayout = () => {
         </nav>
       </header>
 
-      <main className="my-12 space-y-16 overflow-hidden">
+      <main className="my-12 space-y-16 overflow-hidden py-4">
         <section id="resources" className="relative">
           <div className="container flex flex-col space-y-4">
             <div className="flex flex-col">
