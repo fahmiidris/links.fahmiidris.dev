@@ -62,7 +62,7 @@ const resources: TLink[] = [
 const naqimart: TLink[] = [
   {
     href: 'https://www.naqimart.com',
-    title: 'naqimart.com',
+    title: 'Official Website Naqimart',
     description: 'Official website of Naqimart, smart e-commerce for smart shoppers.',
     domain: 'www.naqimart.com',
   },
@@ -71,17 +71,23 @@ const naqimart: TLink[] = [
 const kloningan: TLink[] = [
   {
     href: 'https://www.kloningan.com',
-    title: 'kloningan.com',
+    title: 'Website Kloningan Projects',
     description:
       'Cloning the User Interface of Several Famous Websites on the Internet created by Fahmi Idris.',
     domain: 'www.kloningan.com',
+  },
+  {
+    href: 'https://facebook.kloningan.com',
+    title: 'Facebook Clone',
+    description: 'Facebook, Kage Bunshin no Jutsu - Facebook Clone created by Fahmi Idris',
+    domain: 'facebook.kloningan.com',
   },
 ];
 
 const patungan: TLink[] = [
   {
     href: 'https://www.patungan.dev',
-    title: 'patungan.dev',
+    title: 'Website Patungan Projects',
     description:
       "Official Website of Patungan Dev. A place to study together for those of you who don't like being alone!",
     domain: 'www.patungan.dev',
