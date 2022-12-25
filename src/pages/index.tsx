@@ -58,23 +58,6 @@ const resources: TLink[] = [
   },
 ];
 
-const naqimart: TLink[] = [
-  {
-    href: 'https://www.naqimart.com',
-    title: 'Official Website Naqimart',
-    description: 'Official website of Naqimart, smart e-commerce for smart shoppers.',
-  },
-];
-
-const patungan: TLink[] = [
-  {
-    href: 'https://www.patungan.dev',
-    title: 'Website Patungan Projects',
-    description:
-      "Official Website of Patungan Dev. A place to study together for those of you who don't like being alone!",
-  },
-];
-
 const supports: TLink[] = [
   {
     href: 'https://www.saweria.co/fahmiidris',
@@ -140,68 +123,6 @@ const HomePage: TNextPageWithLayout = () => {
             </div>
             <div className="grid-col-1 grid gap-4 md:grid-cols-2">
               {resources.map((item, idx) => (
-                <Link
-                  key={idx}
-                  href={item.href}
-                  isExternal={true}
-                  className="relative flex flex-col space-y-1 border border-slate-800 p-4 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-900"
-                >
-                  <div className="flex items-center justify-between">
-                    <p className="text-xs font-semibold text-cyan-400">
-                      {removeProtocol(item.href)}
-                    </p>
-                  </div>
-                  <div className="flex flex-col space-y-1">
-                    <h3 className="text-lg font-semibold text-white">{item.title}</h3>
-                    <p className="text-xs text-slate-400">{item.description}</p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section id="naqimart" className="relative">
-          <div className="container flex flex-col space-y-4">
-            <div className="flex flex-col">
-              <h2 className="text-lg font-bold text-white">naqimart.com</h2>
-              <p className="text-xs font-semibold text-slate-400">
-                Smart shop for you, easier shopping with naqimart.
-              </p>
-            </div>
-            <div className="grid-col-1 grid gap-4 md:grid-cols-2">
-              {naqimart.map((item, idx) => (
-                <Link
-                  key={idx}
-                  href={item.href}
-                  isExternal={true}
-                  className="relative flex flex-col space-y-1 border border-slate-800 p-4 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-900"
-                >
-                  <div className="flex items-center justify-between">
-                    <p className="text-xs font-semibold text-cyan-400">
-                      {removeProtocol(item.href)}
-                    </p>
-                  </div>
-                  <div className="flex flex-col space-y-1">
-                    <h3 className="text-lg font-semibold text-white">{item.title}</h3>
-                    <p className="text-xs text-slate-400">{item.description}</p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section id="patungan" className="relative">
-          <div className="container flex flex-col space-y-4">
-            <div className="flex flex-col">
-              <h2 className="text-lg font-bold text-white">patungan.dev</h2>
-              <p className="text-xs font-semibold text-slate-400">
-                A place to study together for those of you who don&apos;t like being alone!
-              </p>
-            </div>
-            <div className="grid-col-1 grid gap-4 md:grid-cols-2">
-              {patungan.map((item, idx) => (
                 <Link
                   key={idx}
                   href={item.href}
