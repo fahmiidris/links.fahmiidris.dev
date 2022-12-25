@@ -51,7 +51,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 | DICODING                | [https://www.dicoding.com/users/fahmiidris-dev](https://www.dicoding.com/users/fahmiidris-dev) |
 | MEDIUM                  | [https://www.medium.com/@fahmiidris-dev](https://www.medium.com/@fahmiidris-dev)               |
 
-| SUPPORT FAHMI IDRIS | LINK                                                                     |
-| ------------------- | ------------------------------------------------------------------------ |
-| SAWERIA             | [https://www.saweria.co/fahmiidris](https://www.saweria.co/fahmiidris)   |
-| TRAKTEER            | [https://www.trakteer.id/fahmiidris](https://www.trakteer.id/fahmiidris) |
+| SUPPORT FAHMI IDRIS | LINK                                                                                               |
+| ------------------- | -------------------------------------------------------------------------------------------------- |
+| SAWERIA             | [https://www.saweria.co/fahmiidris](https://www.saweria.co/fahmiidris)                             |
+| TRAKTEER            | [https://www.trakteer.id/fahmiidris](https://www.trakteer.id/fahmiidris)                           |
+| GITHUB SPONSOR      | [https://www.github.com/sponsors/fahmiidris-labs](https://www.github.com/sponsors/fahmiidris-labs) |
