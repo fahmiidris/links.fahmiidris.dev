@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+### Getting Started
 
 1. Clone this repo
 
@@ -17,16 +17,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 3. Install JS dependencies
 
    ```sh
-   yarn
+   npm install
    ```
 
 4. Start the dev server
 
    ```sh
-   yarn dev
+   npm run dev
    ```
 
-## Links
+### Links
 
 | UI/UX    | LINK                                                                               |
 | -------- | ---------------------------------------------------------------------------------- |
