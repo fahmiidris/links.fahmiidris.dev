@@ -6,13 +6,14 @@ import { RootLayout } from '@/components/templates/root-layout';
 
 import profileIMG from '@/images/logo-fahmiidris.png';
 
+import { removeProtocol } from '@/utils/string-helper';
+
 import type { TNextPageWithLayout } from '@/types/app.type';
 
 type TLink = {
   href: string;
   title: string;
   description?: string;
-  domain?: string;
 };
 
 const sosmed: TLink[] = [
@@ -47,15 +48,13 @@ const resources: TLink[] = [
     href: 'https://www.fahmiidris.dev',
     title: 'Personal Website',
     description:
-      'Fahmi Idris Portfolio, Blog, Personal Project Showcase, and My Experience History.',
-    domain: 'www.fahmiidris.dev',
+      'Fahmi Idris Portfolio, Article, Personal Project Showcase, and My Experience History.',
   },
   {
-    href: 'https://www.fahmiidris.dev/blogs',
-    title: 'My Blog and Life Story',
+    href: 'https://www.fahmiidris.dev/articles',
+    title: 'My Article and Life Story',
     description:
       'Some personal opinions on technology and my random thoughts. Sometimes, it contains stories about feelings.',
-    domain: 'www.fahmiidris.dev/blogs',
   },
 ];
 
@@ -64,23 +63,6 @@ const naqimart: TLink[] = [
     href: 'https://www.naqimart.com',
     title: 'Official Website Naqimart',
     description: 'Official website of Naqimart, smart e-commerce for smart shoppers.',
-    domain: 'www.naqimart.com',
-  },
-];
-
-const kloningan: TLink[] = [
-  {
-    href: 'https://www.kloningan.com',
-    title: 'Website Kloningan Projects',
-    description:
-      'Cloning the User Interface of Several Famous Websites on the Internet created by Fahmi Idris.',
-    domain: 'www.kloningan.com',
-  },
-  {
-    href: 'https://facebook.kloningan.com',
-    title: 'Facebook Clone',
-    description: 'Facebook, Kage Bunshin no Jutsu - Facebook Clone created by Fahmi Idris',
-    domain: 'facebook.kloningan.com',
   },
 ];
 
@@ -90,7 +72,6 @@ const patungan: TLink[] = [
     title: 'Website Patungan Projects',
     description:
       "Official Website of Patungan Dev. A place to study together for those of you who don't like being alone!",
-    domain: 'www.patungan.dev',
   },
 ];
 
@@ -99,19 +80,16 @@ const supports: TLink[] = [
     href: 'https://www.saweria.co/fahmiidris',
     title: 'Sawer Fahmi Yuu!',
     description: 'Makasih yang udah nyawer! jadi semangat ngoding lagi nih! Pluss Ultraaaa!',
-    domain: 'www.saweria.co/fahmiidris',
   },
   {
     href: 'https://www.trakteer.id/fahmiidris/tip',
     title: 'Traktir Fahmi Beli Eskrim!',
     description: 'Makasih ya eskrim nya. Enak banget! jadi semangat ngoding lagi nih!',
-    domain: 'www.trakteer.id/fahmiidris/tip',
   },
   {
     href: 'https://www.github.com/sponsors/fahmiidris-labs',
     title: 'Jadi Sponsor GitHub Fahmi!',
     description: 'Wah! Makasih ya, yang udah jadi sponsor untuk terus support Fahmi!',
-    domain: 'www.github.com/sponsors/fahmiidris-labs',
   },
 ];
 
@@ -169,7 +147,9 @@ const HomePage: TNextPageWithLayout = () => {
                   className="relative flex flex-col space-y-1 border border-slate-800 p-4 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-900"
                 >
                   <div className="flex items-center justify-between">
-                    <p className="text-xs font-semibold text-cyan-400">{item.domain}</p>
+                    <p className="text-xs font-semibold text-cyan-400">
+                      {removeProtocol(item.href)}
+                    </p>
                   </div>
                   <div className="flex flex-col space-y-1">
                     <h3 className="text-lg font-semibold text-white">{item.title}</h3>
@@ -198,36 +178,9 @@ const HomePage: TNextPageWithLayout = () => {
                   className="relative flex flex-col space-y-1 border border-slate-800 p-4 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-900"
                 >
                   <div className="flex items-center justify-between">
-                    <p className="text-xs font-semibold text-cyan-400">{item.domain}</p>
-                  </div>
-                  <div className="flex flex-col space-y-1">
-                    <h3 className="text-lg font-semibold text-white">{item.title}</h3>
-                    <p className="text-xs text-slate-400">{item.description}</p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section id="kloningan" className="relative">
-          <div className="container flex flex-col space-y-4">
-            <div className="flex flex-col">
-              <h2 className="text-lg font-bold text-white">kloningan.com</h2>
-              <p className="text-xs font-semibold text-slate-400">
-                Start by imitating the existing one, then create a better one.
-              </p>
-            </div>
-            <div className="grid-col-1 grid gap-4 md:grid-cols-2">
-              {kloningan.map((item, idx) => (
-                <Link
-                  key={idx}
-                  href={item.href}
-                  isExternal={true}
-                  className="relative flex flex-col space-y-1 border border-slate-800 p-4 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-900"
-                >
-                  <div className="flex items-center justify-between">
-                    <p className="text-xs font-semibold text-cyan-400">{item.domain}</p>
+                    <p className="text-xs font-semibold text-cyan-400">
+                      {removeProtocol(item.href)}
+                    </p>
                   </div>
                   <div className="flex flex-col space-y-1">
                     <h3 className="text-lg font-semibold text-white">{item.title}</h3>
@@ -256,7 +209,9 @@ const HomePage: TNextPageWithLayout = () => {
                   className="relative flex flex-col space-y-1 border border-slate-800 p-4 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-900"
                 >
                   <div className="flex items-center justify-between">
-                    <p className="text-xs font-semibold text-cyan-400">{item.domain}</p>
+                    <p className="text-xs font-semibold text-cyan-400">
+                      {removeProtocol(item.href)}
+                    </p>
                   </div>
                   <div className="flex flex-col space-y-1">
                     <h3 className="text-lg font-semibold text-white">{item.title}</h3>
@@ -283,7 +238,9 @@ const HomePage: TNextPageWithLayout = () => {
                   className="relative flex flex-col space-y-1 border border-slate-800 p-4 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-900"
                 >
                   <div className="flex items-center justify-between">
-                    <p className="text-xs font-semibold text-cyan-400">{item.domain}</p>
+                    <p className="text-xs font-semibold text-cyan-400">
+                      {removeProtocol(item.href)}
+                    </p>
                   </div>
                   <div className="flex flex-col space-y-1">
                     <h3 className="text-lg font-semibold text-white">{item.title}</h3>
@@ -303,7 +260,7 @@ HomePage.Props = {
   Layout: RootLayout,
   meta: {
     title: "Hi! Let's Connect!",
-    description: "Hi! Let's Connect! I'm Fahmi Idris, a web developer based in Indonesia.",
+    description: "Hi! I'm Fahmi Idris, a Frontend Web Developer based in West Java, Indonesia.",
   },
 };
 

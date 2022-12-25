@@ -40,6 +40,7 @@ Custom404Page.Props = {
   Layout: RootLayout,
   meta: {
     title: '404 Page Not Found!',
+    description: "Oh no, the page you are visiting seems to be missing. Are you lost?"
   },
 };
 
