@@ -13,7 +13,6 @@ import type { TNextPageWithLayout } from '@/types/app.type';
 type TLink = {
   href: string;
   title: string;
-  description?: string;
 };
 
 const sosmed: TLink[] = [
@@ -43,7 +42,7 @@ const sosmed: TLink[] = [
   },
 ];
 
-const resources: TLink[] = [
+const resources: Array<TLink & { description: string }> = [
   {
     href: 'https://www.fahmiidris.dev',
     title: 'Personal Website',
@@ -52,27 +51,29 @@ const resources: TLink[] = [
   },
   {
     href: 'https://www.fahmiidris.dev/articles',
-    title: 'My Article and Life Story',
+    title: 'My Articles and Life Stories.',
     description:
       'Some personal opinions on technology and my random thoughts. Sometimes, it contains stories about feelings.',
   },
 ];
 
-const supports: TLink[] = [
+const supports: Array<TLink & { description: string }> = [
   {
     href: 'https://www.saweria.co/fahmiidris',
-    title: 'Sawer Fahmi Yuu!',
-    description: 'Makasih yang udah nyawer! jadi semangat ngoding lagi nih! Pluss Ultraaaa!',
+    title: 'Support Fahmi Through Saweria!',
+    description:
+      'Thank you so much for supporting Fahmi through Saweria. It really helps to keep him motivated for coding!',
   },
   {
     href: 'https://www.trakteer.id/fahmiidris/tip',
-    title: 'Traktir Fahmi Beli Eskrim!',
-    description: 'Makasih ya eskrim nya. Enak banget! jadi semangat ngoding lagi nih!',
+    title: 'Treat Fahmi to an Ice Cream!',
+    description:
+      'Thank you for the ice cream! It was delicious and helps to keep Fahmi motivated for coding!',
   },
   {
     href: 'https://www.github.com/sponsors/fahmiidris-labs',
-    title: 'Jadi Sponsor GitHub Fahmi!',
-    description: 'Wah! Makasih ya, yang udah jadi sponsor untuk terus support Fahmi!',
+    title: 'Become a GitHub Sponsor for Fahmi!',
+    description: 'Wowwwww! Thank you for becoming a sponsor to help support Fahmi!',
   },
 ];
 
