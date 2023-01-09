@@ -62,13 +62,12 @@ const supports: Array<TLink & { description: string }> = [
     href: 'https://www.saweria.co/fahmiidris',
     title: 'Support Fahmi Through Saweria!',
     description:
-      'Thank you so much for supporting Fahmi through Saweria. It really helps to keep him motivated for coding!',
+      'Thank you very much for supporting Fahmi through Saweria. It really helps to keep me motivated!',
   },
   {
     href: 'https://www.trakteer.id/fahmiidris/tip',
     title: 'Treat Fahmi to an Ice Cream!',
-    description:
-      'Thank you for the ice cream! It was delicious and helps to keep Fahmi motivated for coding!',
+    description: 'Thanks for the ice cream! It tastes great and helps to keep me motivated!',
   },
   {
     href: 'https://www.github.com/sponsors/fahmiidris-labs',
