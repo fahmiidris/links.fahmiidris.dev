@@ -1,58 +1,37 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### Getting Started
+## Getting Started
+
+Here is how you can run the project locally:
 
 1. Clone this repo
 
-   ```sh
-   git clone https://github.com/fahmiidris-labs/links.fahmiidris.dev.git
-   ```
+    ```sh
+    git clone git@github.com:fahmiidris/links.fahmiidris.dev.git
+    ```
 
 2. Go into the project root directory
 
-   ```sh
-   cd links.fahmiidris.dev
-   ```
+    ```sh
+    cd links.fahmiidris.dev
+    ```
 
-3. Install JS dependencies
+3. Copy `.env.example` to `.env.local`
 
-   ```sh
-   npm install
-   ```
+    ```sh
+    cp .env.example .env.local
+    ```
 
-4. Start the dev server
+4. Install JS dependencies
 
-   ```sh
-   npm run dev
-   ```
+    ```sh
+    pnpm install
+    ```
 
-### Links
+5. Start the dev server
 
-| UI/UX    | LINK                                                                               |
-| -------- | ---------------------------------------------------------------------------------- |
-| FIGMA    | [https://www.figma.com/@fahmiidris_dev](https://www.figma.com/@fahmiidris_dev)     |
-| BEHANCE  | [https://www.behance.net/fahmiidris_dev](https://www.behance.net/fahmiidris_dev)   |
-| DRIBBBLE | [https://www.dribbble.com/fahmiidris_dev](https://www.dribbble.com/fahmiidris_dev) |
+    ```sh
+    pnpm run dev
+    ```
 
-| SOURCE CODE MANAGEMENT | LINK                                                                                   |
-| ---------------------- | -------------------------------------------------------------------------------------- |
-| GITHUB                 | [https://www.github.com/fahmiidris-labs](https://www.github.com/fahmiidris-labs)       |
-| GITLAB                 | [https://www.gitlab.com/fahmiidris-labs](https://www.gitlab.com/fahmiidris-labs)       |
-| BITBUCKET              | [https://www.bitbucket.org/fahmiidris-labs](https://www.bitbucket.org/fahmiidris-labs) |
-
-| SOCIAL MEDIA AND OTHERS | LINK                                                                                           |
-| ----------------------- | ---------------------------------------------------------------------------------------------- |
-| FACEBOOK                | [https://www.facebook.com/fahmiidris.dev](https://www.facebook.com/fahmiidris.dev)             |
-| INSTAGRAM               | [https://www.instagram.com/fahmiidris.dev](https://www.instagram.com/fahmiidris.dev)           |
-| TWITTER                 | [https://www.twitter.com/fahmiidris_dev](https://www.twitter.com/fahmiidris_dev)               |
-| TELEGRAM                | [https://t.me/fahmiidris_dev](https://t.me/fahmiidris_dev)                                     |
-| LINKEDIN                | [https://www.linkedin.com/in/fahmiidris-dev](https://www.linkedin.com/in/fahmiidris-dev)       |
-| GOOGLE DEV              | [https://g.dev/fahmiidris-dev](https://g.dev/fahmiidris-dev)                                   |
-| DICODING                | [https://www.dicoding.com/users/fahmiidris-dev](https://www.dicoding.com/users/fahmiidris-dev) |
-| MEDIUM                  | [https://www.medium.com/@fahmiidris-dev](https://www.medium.com/@fahmiidris-dev)               |
-
-| SUPPORT FAHMI IDRIS | LINK                                                                                               |
-| ------------------- | -------------------------------------------------------------------------------------------------- |
-| SAWERIA             | [https://www.saweria.co/fahmiidris](https://www.saweria.co/fahmiidris)                             |
-| TRAKTEER            | [https://www.trakteer.id/fahmiidris](https://www.trakteer.id/fahmiidris)                           |
-| GITHUB SPONSOR      | [https://www.github.com/sponsors/fahmiidris-labs](https://www.github.com/sponsors/fahmiidris-labs) |
+Inspired by [Notiolink](https://github.com/theodorusclarence/notiolink).

@@ -1,33 +1,64 @@
 {
-  "name": "links.fahmiidris.dev",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@badrap/bar-of-progress": "^0.1.2",
-    "next": "12.1.4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-icons": "^4.3.1"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.23",
-    "@types/react": "17.0.43",
-    "@types/react-dom": "17.0.14",
-    "@types/tailwindcss": "^3.0.10",
-    "autoprefixer": "^10.4.4",
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4",
-    "postcss": "^8.4.12",
-    "postcss-import": "^14.1.0",
-    "prettier": "^2.6.2",
-    "prettier-plugin-tailwindcss": "^0.1.8",
-    "tailwindcss": "^3.0.23",
-    "typescript": "4.6.3"
-  }
+    "name": "links.fahmiidris.dev",
+    "description": "Personal branded link shortener build with Next.js, Tailwind CSS, and Notion API.",
+    "version": "0.1.0",
+    "license": "MIT",
+    "private": false,
+    "author": {
+        "name": "Fahmi Idris",
+        "email": "fahmiidris.dev@gmail.com",
+        "url": "https://www.fahmiidris.dev"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "checker": "pnpm run check:ts && pnpm run check:lint",
+        "check:ts": "tsc",
+        "check:lint": "pnpm run lint",
+        "formatter": "pnpm run staged:lint && pnpm run staged:prettier",
+        "staged:lint": "next lint --fix",
+        "staged:prettier": "prettier '**/*.{css,js,cjs,mjs,jsx,ts,tsx,md,mdx,yml,yaml}' --write",
+        "prepare": "husky install",
+        "lint-staged": "lint-staged",
+        "commitlint": "commitlint --edit"
+    },
+    "dependencies": {
+        "@next/bundle-analyzer": "^13.4.19",
+        "@notionhq/client": "^2.2.13",
+        "clsx": "^2.0.0",
+        "next": "^13.4.19",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "tailwind-merge": "^1.14.0"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.7.1",
+        "@commitlint/config-conventional": "^17.7.0",
+        "@commitlint/types": "^17.4.4",
+        "@types/node": "^20.5.9",
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "@typescript-eslint/eslint-plugin": "^6.5.0",
+        "@typescript-eslint/parser": "^6.5.0",
+        "autoprefixer": "^10.4.15",
+        "encoding": "^0.1.13",
+        "eslint": "^8.48.0",
+        "eslint-config-next": "^13.4.19",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-prettier": "^5.0.0",
+        "husky": "^8.0.0",
+        "lint-staged": "^14.0.1",
+        "postcss": "^8.4.29",
+        "postcss-focus-visible": "^9.0.0",
+        "postcss-import": "^15.1.0",
+        "prettier": "^3.0.3",
+        "prettier-plugin-tailwindcss": "^0.5.4",
+        "tailwindcss": "^3.3.3",
+        "typescript": "^5.2.2"
+    },
+    "browserslist": [
+        "> 1%"
+    ]
 }
