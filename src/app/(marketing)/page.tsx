@@ -33,7 +33,7 @@ export default async function Page() {
             <section id="websites" aria-labelledby="websites-title" className="relative">
                 <div className="pb-4">
                     <h2 id="websites-title" className="text-lg font-bold text-white">
-                        Webistes
+                        Websites
                     </h2>
 
                     <p className="text-xs font-semibold text-slate-400">Some of the websites I have created.</p>
